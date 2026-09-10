@@ -1,47 +1,93 @@
-<div dir="rtl" align="right">
+# Open Source License & Attribution Notice
 
-# سنڌي ايموجي ڊيٽا (Sindhi Emoji Data) 🌟
-
-[![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen)](#)
-[![Project](https://img.shields.io/badge/Project-HelloSindh-blue)](#)
-
-هي **[هيلوسنڌ (HelloSindh.com)](https://hellosindh.com)** پاران هڪ اوپن سورس پروجيڪٽ آهي، جنهن ۾ معياري يونيڪوڊ ايموجيز جو سنڌي ترجمو ۽ لاڳاپيل لفظ (Keywords) ڏنا ويا آهن[cite: 1].
-
-هن ڊيٽابيس جو مقصد سنڌي ٻوليءَ کي ڊجيٽل رابطن ۾ هٿي ڏيڻ آهي، ته جيئن ڊيولپرز آسانيءَ سان پنهنجي ويب يا موبائيل ايپليڪيشنز ۾ سنڌي ايموجي ڪيبورڊ، سرچ سسٽم ۽ ريئيڪشن فيچرز شامل ڪري سگهن.
+**HelloSindh Sindhi Emoji Dataset & Tools**  
+Official Website: [https://hellosindh.com](https://hellosindh.com)  
+Repository: [HelloSindh on GitHub](https://github.com/hellosindh7)  
+Copyright (c) 2026 HelloSindh Team. All Rights Reserved.
 
 ---
 
-## 📦 پروجيڪٽ جون خاصيتون
+## Dual Licensing Structure
 
-هن پروجيڪٽ جي سموري ڊيٽا `emojis-data.js` فائيل ۾ موجود آهي[cite: 1]. 
+To maximize utility for developers, researchers, linguists, and open-source contributors while protecting the cultural integrity of the work, this project is licensed under two industry-standard licenses:
 
-* **ٻه لساني سپورٽ (Bilingual Support):** انگريزي (`name_en`, `keywords_eng`) ۽ سنڌي (`name_sd`, `keywords_sd`) ٻنهي ٻولين ۾ نالا ۽ لفظ موجود آهن[cite: 1].
-* **سرچ لاءِ لفظ (Rich Keyword Mapping):** هر ايموجي سان گڏ پائپ (`|`) سان ڌار ٿيل لفظ شامل آهن جيئن سرچ ڪرڻ ۾ آساني ٿئي (مثال طور: "مرڪڻ" يا "خوش" لکڻ سان "😀" سرچ ٿيڻ)[cite: 1].
-* **ڪيٽيگريز (Categorized):** ايموجيز کي انهن جي ڪيٽيگريز جي حساب سان ورهايو ويو آهي (مثال طور: `smileys_emotion`، `people_body`)[cite: 1].
-* **معياري يونيڪوڊ (Standardized Unicode):** هر ايموجي جو يونيڪوڊ (مثال: `U+1F600`) پڻ ڏنل آهي ته جيئن رينڊرنگ ۾ ڪو مسئلو نه اچي[cite: 1].
+1. **Dataset & Linguistic Data**: Licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+2. **Software Code, Scripts & Frontend**: Licensed under the **MIT License**.
 
 ---
 
-## 📂 ڊيٽا جي بناوٽ
+## 1. Dataset License (CC BY 4.0)
 
-پروجيڪٽ جي ڊيٽا `emojis-data.js` فائيل اندر `window.EMOJI_DATA` نالي ايري (Array) ۾ رکيل آهي[cite: 1]. 
+Applicable to: `emojis.json`, `emojis-data.js`, linguistic translations, keywords (`keywords_sd`, `keywords_eng`), transliterations, and Unicode metadata.
 
-هر هڪ ايموجي جي ڊيٽا جو ڍانچو ڪجهه هن طرح آهي[cite: 1]:
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format.
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
 
-</div>
+Under the following terms:
+- **Attribution** — You must give appropriate credit to **HelloSindh (hellosindh.com)**, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-<div dir="ltr" align="left">
+Full Legal Code: [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode)
 
-```javascript
-{
-  "emoji": "😀",                                // ايموجي ڪيريڪٽر
-  "code": "U+1F600",                           // يونيڪوڊ هيڪس ڪوڊ
-  "category": "smileys_emotion",               // ڪيٽيگري
-  "name_en": "grinning face",                  // انگريزي نالو
-  "keywords_eng": "cheerful|cheery|face...",   // انگريزي سرچ لفظ (پائپ سان ڌار ٿيل)
-  "name_sd": "خوش مزاج",                        // سنڌي نالو
-  "keywords_sd": "خوش مزاج|خوش|چهرو|کلڻ|مرڪڻ..." // سنڌي سرچ لفظ (پائپ سان ڌار ٿيل)
+### Suggested Citation / Attribution Format
+
+If you use the Sindhi Emoji Dataset in your software, research paper, model training, keyboard application, or website, please cite it as:
+
+```text
+HelloSindh Sindhi Emoji Dataset (Unicode 17 Standard)
+Curated and Published by HelloSindh (https://hellosindh.com)
+Available at: https://hellosindh.com/sd/sindhiemoji
+License: CC BY 4.0
+```
+
+#### BibTeX Citation (for Research & Academia):
+```bibtex
+@dataset{hellosindh_emoji_2026,
+  author       = {{HelloSindh Team}},
+  title        = {Sindhi Emoji Dataset: Standard Unicode 17 Translations and Keywords},
+  year         = {2026},
+  publisher    = {HelloSindh},
+  url          = {https://hellosindh.com/sd/sindhiemoji},
+  note         = {Open Source Sindhi Linguistic Resource}
 }
+```
 
+---
 
+## 2. Software License (MIT License)
 
+Applicable to: application source code, scrapers, converters, utility scripts, and frontend components.
+
+```text
+MIT License
+
+Copyright (c) 2026 HelloSindh (hellosindh.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+## 3. Community Guidelines & Cultural Integrity
+
+HelloSindh is committed to digital empowerment and standardizing Sindhi language resources across digital platforms. When using or adapting this dataset:
+
+- **Accuracy & Respect**: Maintain phonetic, grammatical, and cultural accuracy in Sindhi translations wherever possible.
+- **Contributions**: If you identify typos, missing keywords, dialectical nuances, or new Unicode additions, you are warmly encouraged to submit a Pull Request or contact the HelloSindh development team at [https://hellosindh.com](https://hellosindh.com).
