@@ -12,6 +12,9 @@ The dataset includes:
 - Sindhi search keywords for every emoji
 - Unicode code points and emoji numbering
 
+## One more thing
+The flag data may not be correctly visible on all operating systems (such as Windows), so make sure to check how it renders before publishing.
+
 ## Community Contributions
 If you find anything missing, a keyword mismatch, translation issue, or any other improvement, please feel free to submit a Pull Request and contribute to making this dataset better for everyone.
 
