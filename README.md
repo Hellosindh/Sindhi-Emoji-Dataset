@@ -1,4 +1,13 @@
 # Sindhi Emoji Dataset
+The first complete Sindhi emoji dataset with Sindhi translations and search keywords, covering the Unicode 17 emoji standard.
+Sindhi previously lacked a comprehensive emoji dataset with localized translations and search keywords. HelloSindh created and published this dataset to help developers, researchers, keyboard creators, and digital projects add better Sindhi emoji support.
+Translated and curated by the HelloSindh team — not generated using AI.
+Each emoji translation and keyword was carefully selected with Sindhi language and cultural context in mind.
+
+
+
+
+
 
 ## Dual Licensing Structure
 
