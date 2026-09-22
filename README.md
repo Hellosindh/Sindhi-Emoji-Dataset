@@ -1,11 +1,4 @@
-# Open Source License & Attribution Notice
-
-**HelloSindh Sindhi Emoji Dataset & Tools**  
-Official Website: [https://hellosindh.com](https://hellosindh.com)  
-Repository: [HelloSindh on GitHub](https://github.com/hellosindh7)  
-Copyright (c) 2026 HelloSindh Team. All Rights Reserved.
-
----
+# Sindhi Emoji Dataset
 
 ## Dual Licensing Structure
 
