@@ -1,4 +1,5 @@
-# Sindhi Emoji Dataset 😉
+# Sindhi Emoji Dataset 
+![sindhi-emoji](sindhi-emojis.png)
 The first complete Sindhi emoji dataset with Sindhi translations and search keywords, covering the Unicode 17 emoji standard.
 Sindhi previously lacked a comprehensive emoji dataset with localized translations and search keywords. HelloSindh created and published this dataset to help developers, researchers, keyboard creators, and digital projects add better Sindhi emoji support.
 Translated and curated by the HelloSindh team — not generated using AI.
